@@ -1,0 +1,3 @@
+SELECT * FROM funcionarios;
+
+SELECT * FROM solicitacao;

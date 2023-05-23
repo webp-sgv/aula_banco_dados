@@ -1,0 +1,60 @@
+{
+    "version":"20110917",
+    "users":[
+      {
+        "name":"username1",
+        "id":"7000f",
+        "email":"user1_email@website.com",
+        "avatarId":"70010",
+        "license":"Editor",
+        "admin":true,
+        "date":1310654350393,
+        "archived":false,
+        "invited":false,
+        "licensed":true,
+        "locked":false,
+        "businessUnit":
+            { "id": "150005", "name": "department1" }
+      },
+      {
+        "name":"username2",
+        "id":"70022",
+        "email":"user2_email@website.com",
+        "license":"Community",
+        "admin":false,
+        "archived":false,
+        "invited":false,
+        "licensed":true,
+        "locked":false,
+        "businessUnit":
+            { "id": "150006", "name": "department2" }
+      },
+      {
+        "name":"username3",
+        "id":"70021",
+        "email":"user3_email@website.com",
+        "license":"Contributor",
+        "admin":false,
+        "archived":false,
+        "invited":false,
+        "licensed":true,
+        "locked":false,
+        "businessUnit":
+            { "id": "150007", "name": "department3" }
+      },
+      {
+        "name":"username4",
+        "id":"70020",
+        "email":"user4_email@website.com",
+        "license":"Viewer",
+        "admin":false,
+        "date":1310653543628,
+        "archived":false,
+        "invited":false,
+        "licensed":true,
+        "locked":false,
+        "businessUnit":
+            { "id": "150008", "name": "department4" }
+      }
+    ]
+  }

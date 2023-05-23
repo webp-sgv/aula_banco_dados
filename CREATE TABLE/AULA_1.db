@@ -21,3 +21,10 @@ CREATE TABLE itens_solicitacao (
     id_produtos INTEGER,
     qtd INTEGER
 );
+
+CREATE TABLE funcionarios (
+	id_funcionarios INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome_funcionarios VARCHAR(20),
+    documento CHAR(14),
+    telefone CHAR(14)
+);

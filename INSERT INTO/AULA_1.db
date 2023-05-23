@@ -1,0 +1,120 @@
+INSERT INTO solicitacao (
+	solicitacao.id_funcionario,
+    solicitacao.data
+) VALUES (
+	1, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+), (
+	2, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+), (
+	3, /* solicitacao.id_funcionario */
+    (NOW()) /* solicitacao.data */
+), (
+	4, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+), (
+	5, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+), (
+	6, /* solicitacao.id_funcionario */
+    (NOW()) /* solicitacao.data */
+), (
+	7, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+), (
+	8, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+), (
+	9, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+), (
+	10, /* solicitacao.id_funcionario */
+    (CURDATE()) /* solicitacao.data */
+)
+
+INSERT INTO produtos (
+	produtos.nome_produto,
+    produtos.valor_compra,
+    produtos.npm
+) VALUES (
+	'Bota Tamanho G', /* produtos.nome_produto */
+    50, /* produtos.valor_compra */
+    '80673515' /* produtos.npm [MAX. 8] */
+), (
+	'Bota Tamanho M', /* produtos.nome_produto */
+    45, /* produtos.valor_compra */
+    '80673516' /* produtos.npm [MAX. 8] */
+), (
+	'Bota Tamanho P', /* produtos.nome_produto */
+    40, /* produtos.valor_compra */
+    '80673517' /* produtos.npm [MAX. 8] */
+), (
+	'Blusa Verao G', /* produtos.nome_produto */
+    30, /* produtos.valor_compra */
+    '80673518' /* produtos.npm [MAX. 8] */
+), (
+	'Blusa Verao M', /* produtos.nome_produto */
+    25, /* produtos.valor_compra */
+    '80673519' /* produtos.npm [MAX. 8] */
+), (
+	'Blusa Verao P', /* produtos.nome_produto */
+    20, /* produtos.valor_compra */
+    '80673520' /* produtos.npm [MAX. 8] */
+)
+
+INSERT INTO setor (
+	setor.nome_setor
+) VALUES (
+	'RH' /* setor.nome_setor */
+), (
+	'Financeiro' /* setor.nome_setor */
+), (
+	'Diretoria' /* setor.nome_setor */
+);
+
+INSERT INTO funcionarios (
+	funcionarios.nome_funcionarios,
+    funcionarios.documento,
+    funcionarios.telefone
+) VALUES (
+	'Jean Rodrigues', /* funcionarios.nome_funcionarios */
+    '12345678910', /* funcionarios.documento */
+    '62984032553'  /* funcionarios.telefone */
+), (
+	'Maria Silva', /* funcionarios.nome_funcionarios */
+    '13279845620', /* funcionarios.documento */
+    '61856431234'  /* funcionarios.telefone */
+), (
+	'Robson Santana', /* funcionarios.nome_funcionarios */
+    '13279813210', /* funcionarios.documento */
+    '41311136546'  /* funcionarios.telefone */
+), (
+	'Caio Alves', /* funcionarios.nome_funcionarios */
+    '32165498799', /* funcionarios.documento */
+    '78946546613'  /* funcionarios.telefone */
+), (
+	'Antonia Silva', /* funcionarios.nome_funcionarios */
+    '65498732120', /* funcionarios.documento */
+    '78946556551'  /* funcionarios.telefone */
+), (
+	'Julia Maria', /* funcionarios.nome_funcionarios */
+    '98752145610', /* funcionarios.documento */
+    '13265465461'  /* funcionarios.telefone */
+), (
+	'Higor Sampaio', /* funcionarios.nome_funcionarios */
+    '98732147199', /* funcionarios.documento */
+    '13265498798'  /* funcionarios.telefone */
+), (
+	'Julio Silva', /* funcionarios.nome_funcionarios */
+    '78996325810', /* funcionarios.documento */
+    '13265498791'  /* funcionarios.telefone */
+), (
+	'Igor Guimaraes', /* funcionarios.nome_funcionarios */
+    '98741354610', /* funcionarios.documento */
+    '31265498777'  /* funcionarios.telefone */
+), (
+	'Emilly Aparecida', /* funcionarios.nome_funcionarios */
+    '85296374110', /* funcionarios.documento */
+    '66546541321'  /* funcionarios.telefone */
+)
