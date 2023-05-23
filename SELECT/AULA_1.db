@@ -1,3 +1,12 @@
 SELECT * FROM funcionarios;
 
 SELECT * FROM solicitacao;
+
+SELECT 
+F.id_funcionarios, 
+F.nome_funcionarios,
+F.documento,
+F.telefone,
+S.nome_setor
+AS nome_setor
+FROM funcionarios F, setor S;

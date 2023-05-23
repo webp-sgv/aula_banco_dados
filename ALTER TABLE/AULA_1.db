@@ -1,3 +1,0 @@
-ALTER TABLE funcionarios ADD id_setor INTEGER;
-
-ALTER TABLE funcionarios ADD orkut VARCHAR(30);

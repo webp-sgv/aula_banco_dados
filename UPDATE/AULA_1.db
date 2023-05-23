@@ -1,0 +1,10 @@
+UPDATE funcionarios
+SET id_setor = 3
+WHERE id_funcionarios = 1;
+
+UPDATE funcionarios
+SET id_setor = 2
+WHERE id_funcionarios IN (
+	3,
+    7
+);

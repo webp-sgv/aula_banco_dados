@@ -1,0 +1,23 @@
+ALTER TABLE funcionarios ADD id_setor INTEGER;
+
+ALTER TABLE funcionarios ADD orkut VARCHAR(30);
+
+ALTER TABLE funcionarios
+ADD CONSTRAINT fk_id_setor
+FOREIGN KEY (id_setor)
+REFERENCES setor (id_setor);
+
+ALTER TABLE solicitacao
+ADD CONSTRAINT fk_id_funcionario
+FOREIGN KEY (id_funcionario)
+REFERENCES funcionarios (id_funcionarios);
+
+ALTER TABLE itens_solicitacao
+ADD CONSTRAINT fk_id_produto
+FOREIGN KEY (id_produtos)
+REFERENCES produtos (id_produtos);
+
+ALTER TABLE itens_solicitacao
+ADD CONSTRAINT fk_id_solicitacao
+FOREIGN KEY (id_solicitacao_itens)
+REFERENCES solicitacao (id_solicitacao);

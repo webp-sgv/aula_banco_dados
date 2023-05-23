@@ -71,6 +71,10 @@ INSERT INTO setor (
 	'Financeiro' /* setor.nome_setor */
 ), (
 	'Diretoria' /* setor.nome_setor */
+), (
+	'Aumoxarifato' /* setor.nome_setor */
+), (
+	'Aquisição' /* setor.nome_setor */
 );
 
 INSERT INTO funcionarios (
