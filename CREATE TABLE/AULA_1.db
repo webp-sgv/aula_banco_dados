@@ -1,0 +1,23 @@
+CREATE TABLE setor (
+	id_setor INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome_setor VARCHAR(40)
+);
+
+CREATE TABLE produtos (
+    id_produtos INTEGER PRIMARY KEY AUTO_INCREMENT,
+    nome_produto VARCHAR(20),
+    valor_compra FLOAT,
+    npm CHAR(8)
+);
+
+CREATE TABLE solicitacao (
+    id_solicitacao INTEGER PRIMARY KEY AUTO_INCREMENT,
+    id_funcionario INTEGER,
+    data DATETIME
+);
+
+CREATE TABLE itens_solicitacao (
+	id_solicitacao_itens INTEGER PRIMARY KEY AUTO_INCREMENT,
+    id_produtos INTEGER,
+    qtd INTEGER
+);
